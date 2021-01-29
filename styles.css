@@ -1,0 +1,28 @@
+* {
+  background-color: rgb(191, 229, 241);
+}
+
+div {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  color: plum;
+  flex-direction: column;
+}
+.buttonDiv {
+  background-image: url("bg.jpg");
+  position: fixed;
+  top: 50%;
+  flex-direction: row;
+  height: 80px;
+  width: 400px;
+}
+button {
+  margin: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(154, 154, 224);
+  box-shadow: 0px 10px 50px rgb(252, 251, 242);
+}
